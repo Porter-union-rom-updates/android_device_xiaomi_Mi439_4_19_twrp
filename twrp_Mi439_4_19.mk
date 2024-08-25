@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from Mi439_4_19 device
 $(call inherit-product, device/xiaomi/Mi439_4_19/device.mk)
 
 PRODUCT_DEVICE := Mi439_4_19
-PRODUCT_NAME := omni_Mi439_4_19
+PRODUCT_NAME := twrp_Mi439_4_19
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SDM439
 PRODUCT_MANUFACTURER := xiaomi
