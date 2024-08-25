@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Mi439_4_19.mk
+    $(LOCAL_DIR)/twrp_Mi439_4_19.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Mi439_4_19-user \
-    omni_Mi439_4_19-userdebug \
-    omni_Mi439_4_19-eng
+    twrp_Mi439_4_19-user \
+    twrp_Mi439_4_19-userdebug \
+    twrp_Mi439_4_19-eng
